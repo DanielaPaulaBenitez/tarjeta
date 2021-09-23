@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(../CATO/FONDO\ FLORES.jpg)
+}
+.rectangulo {
+    width: 400px;
+    height: 500px;
+    background-color: rgb(56, 153, 170);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    border-radius: 100px;
+}
+    
+img {
+    border-radius: 100px;
+}
+@font-face {
+    font-family:dillova;
+    src: url(Dillova.ttf);
+}
+h1 {
+    font-family:dillova;
+    font-size: 2em;
+    text-align: center;
+    position: relative;
+    color: black;
+}
+h2 {
+    font-family: dillova;
+    font-size: 2em;
+    text-align: center;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
